@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Inika', serif;
+  text-decoration: none !important;
+}
+p{
+  font-size: 16px;
+}
+#hero{
+  background: url('./assets/img/Herobg.svg') no-repeat center  ;
+  background-size: cover;
+}
+#hero h1 {
+  line-height: 60px;
+  color: #523728;
+  font-size: 55px;
+}
+#hero p {
+  line-height: 25px;
+  color: #523728;
+}
+#hero a{
+  margin-top: 40px;
+  background-color: #523728;
+  color: #fff;
+  margin-right: 20px;
+  padding: 12px;
+  width: 30%;
+  text-align: center;
+  font-size: 16px;
+}
+#hero a.watch{
+  background: transparent;
+  border: 2px solid #523728;
+  color: #523728;
+
+
+}
