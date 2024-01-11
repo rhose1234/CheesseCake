@@ -25,8 +25,7 @@ const Home = () => {
        </section>
 
        <section className='About' id='about'>
-        
-
+            
        </section>
     </div>
   )
