@@ -5,27 +5,36 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <section className="hero vh-100" id="hero">
+      <section className="hero min-vh-100 py-5 " id="hero">
         <div className="container">
           <div className="row d-flex align-items-center ">
             <div className="col-lg-6 col-md-12">
-              <h1 className="display-5 font-bold mt-5  mb-5">
+              <h1 className="display-6 font-bold mt-5  mb-5">
                 Bite The World of Cheesecake Wonders
               </h1>
-              <span className="mt-5 mb-5">
+              <span className="mt-5 pt-5 mb-5">
                 We always make our customer happy by providing <br /> as many
                 choices as possible{" "}
               </span>
 
-              <div className="d-flex btns ">
-                <Link className="rounded-pill font-bold"> Get Started</Link>
-                <Link className="watch rounded-pill font-bold">
+               <div className="col-lg-6 col-md-12 d-flex d-lg-none">
+              <img
+                src="/src/assets/img/Heroimage.svg"
+                alt="cake"
+                className="w-100 h-100"
+              />
+            </div>
+
+
+              <div className="d-flex btns mt-2 mt-lg-5">
+                <Link className="rounded-pill text-bold w-auto p-3 px-5 text-center"> Get Started</Link>
+                <Link className="watch rounded-pill text-bold w-auto p-3 px-3 text-center w-lg-25">
                   {" "}
                   Watch Demo &nbsp; <FaCirclePlay />{" "}
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 d-lg-flex d-none">
               <img
                 src="/src/assets/img/Heroimage.svg"
                 alt="cake"
@@ -38,7 +47,7 @@ const Home = () => {
 
       <section className="About" id="about">
         <div className="container">
-          <div className="row d-flex align-items-center">
+          <div className="row d-flex align-items-center gx-5">
             <div className="col-lg-6 col-md-12">
               <img
                 src="/src/assets/img/AboutUs.svg"
@@ -48,7 +57,7 @@ const Home = () => {
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <h1>We Love CheeseCake</h1>
+              <h1>We Love CheeseCake🍰</h1>
               <span className="mt-2 font-bold">
                 Discover Our Cheesecake Story
               </span>
@@ -66,9 +75,11 @@ const Home = () => {
                 </p>
               </div>
 
-              <Link className="read-btn rounded-pill w-50 font-bold">
+              <div className="read-btn rounded-pill w-25 p-3 px-3">
+              <Link className=" rounded-pill  text-bold  w-auto">
                 Read More
               </Link>
+              </div>
             </div>
           </div>
         </div>
