@@ -1,8 +1,10 @@
-# React + Vite
+#CheeseCake
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Cheesecake project built 
+i got the UI design from @ameena; on twitter and i decided to replicate it 
 
-Currently, two official plugins are available:
+##Technology Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React
+Bootstrap
+React-icons
