@@ -1,6 +1,8 @@
 import React from "react";
 import { FaCirclePlay } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import cake1 from '/src/assets/img/Heroimage.svg';
+import cake2 from '/src/assets/img/AboutUs.svg';
 
 const Home = () => {
   return (
@@ -19,7 +21,7 @@ const Home = () => {
 
                <div className="col-lg-6 col-md-12 d-flex d-lg-none">
               <img
-                src="/src/assets/img/Heroimage.svg"
+                src={cake1}
                 alt="cake"
                 className="w-100 h-100"
               />
@@ -36,7 +38,7 @@ const Home = () => {
             </div>
             <div className="col-lg-6 col-md-12 d-lg-flex d-none">
               <img
-                src="/src/assets/img/Heroimage.svg"
+                src={cake1}
                 alt="cake"
                 className="w-100 h-100"
               />
@@ -45,12 +47,12 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="About" id="about">
+      <section className="About py-5 " id="about">
         <div className="container">
           <div className="row d-flex align-items-center gx-5">
             <div className="col-lg-6 col-md-12">
               <img
-                src="/src/assets/img/AboutUs.svg"
+                src={cake2}
                 alt="cake2"
                 className="h-100 w-100"
               />
@@ -69,14 +71,14 @@ const Home = () => {
                   attention to detail, and a dash of creativity.{" "}
                 </p>
 
-                <p className="mt-5">
+                <p className="mt-3">
                   We believe in delivering not just desserts but moments of
                   sheer indulgence.
                 </p>
               </div>
 
-              <div className="read-btn rounded-pill w-25 p-3 px-3">
-              <Link className=" rounded-pill  text-bold  w-auto">
+              <div className="read-btn rounded-pill p-3 px-3 w-50">
+              <Link className="   text-bold ">
                 Read More
               </Link>
               </div>
