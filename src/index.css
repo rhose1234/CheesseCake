@@ -39,3 +39,14 @@ p{
 
 
 }
+#about{
+  color: #523728;
+}
+#about a.read-btn{
+  background-color: #523728;
+  color: #fff;
+  margin-top: 40px;
+  padding: 16px;
+  width: 40%;
+  font-size: 16px;
+}
