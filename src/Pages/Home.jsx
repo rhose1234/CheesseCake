@@ -23,6 +23,11 @@ const Home = () => {
         </div>
        </div>
        </section>
+
+       <section className='About' id='about'>
+        
+
+       </section>
     </div>
   )
 }
